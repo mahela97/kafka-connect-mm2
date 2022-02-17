@@ -19,7 +19,7 @@ ENV M2 $M2_HOME/bin
 ENV PATH $M2:$PATH
 
 
-RUN wget https://bootstrap.pypa.io/get-pip.py
+RUN wget https://bootstrap.pypa.io/pip/3.6/get-pip.py
 RUN python3 get-pip.py
 RUN pip3 install awscli
 

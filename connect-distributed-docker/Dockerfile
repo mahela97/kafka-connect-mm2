@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7
 
 RUN yum install -y wget tar openssh-server openssh-clients sysstat sudo which openssl hostname
 RUN yum install -y java-1.8.0-openjdk-devel
